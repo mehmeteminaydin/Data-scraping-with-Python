@@ -1,8 +1,8 @@
 import scrapy
 
 
-class ParisSpider(scrapy.Spider):
-    name = 'paris'
+class WikipediaSpider(scrapy.Spider):
+    name = 'istanbul'
     start_urls = ['https://en.wikipedia.org/wiki/Istanbul']
 
     def parse(self, response):
